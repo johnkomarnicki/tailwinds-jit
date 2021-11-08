@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css-components-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwinds": "tailwind build -i src/style.css -o public/style.css",
+    "watch:tailwinds": "tailwind build -i src/style.css -o public/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkomarnicki/tailwind-css-components-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkomarnicki/tailwind-css-components-/issues"
+  },
+  "homepage": "https://github.com/johnkomarnicki/tailwind-css-components-#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
