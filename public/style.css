@@ -595,6 +595,12 @@ video {
   display: none;
 }
 
+*, ::before, ::after {
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+}
+
 .container {
   width: 100%;
   margin-right: auto;
@@ -635,6 +641,10 @@ video {
 
 .w-24 {
   width: 6rem;
+}
+
+.w-\[125px\] {
+  width: 125px;
 }
 
 .max-w-\[500px\] {
@@ -690,6 +700,38 @@ video {
 .text-grey-blue {
   --tw-text-opacity: 1;
   color: hsla(201, 11%, 66%, var(--tw-text-opacity));
+}
+
+.btn {
+  border-radius: 9999px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.btn-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsla(171, 66%, 44%, var(--tw-bg-opacity));
+}
+
+.btn-cyan:hover {
+  box-shadow: 0 10px 15px -3px hsla(171, 66%, 44%, 0.3),
+    0 4px 6px -2px hsla(171, 66%, 44%, 0.3);
+}
+
+.btn-light-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsla(233, 100%, 69%, var(--tw-bg-opacity));
+}
+
+.btn-light-blue:hover {
+  box-shadow: 0 10px 15px -3px hsla(233, 100%, 69%, 0.3),
+    0 4px 6px -2px hsla(233, 100%, 69%, 0.3);
 }
 
 @media (min-width: 640px) {
