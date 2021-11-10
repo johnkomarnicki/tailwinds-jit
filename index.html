@@ -15,8 +15,10 @@
   </head>
   <body class="font-BaiJamjuree">
     <!-- Hero -->
-    <div class="bg-hero-desktop bg-cover h-screen w-full">
-      <div class="container flex flex-col items-center pt-[96px] text-center">
+    <div class="bg-hero-desktop bg-cover w-full">
+      <div
+        class="container flex flex-col items-center py-[80px] md:py-[128px] text-center"
+      >
         <img class="w-[125px] mb-14" src="./assets/logo.svg" alt="clipboard logo" />
         <h1 class="text-4xl md:text-5xl mb-3 text-dark-gray-blue">
           A history of everything you copy
@@ -34,6 +36,47 @@
           <button class="btn btn-light-blue">
             Download for Mac
           </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tracking -->
+    <div class="py-[80px] md:py-[128px] container max-w-screen-lg">
+      <h2 class="text-center text-3xl md:text-4xl mb-3 text-dark-gray-blue">
+        Keep track of your snippets
+      </h2>
+      <p
+        class="max-w-[500px] md:max-w-[700px] text-center mx-auto
+          text-[14px] md:text-[18px] text-grey-blue mb-16"
+      >
+        Clipboard instantly stores any item you copy in the cloud, meaning you can access
+        your snippets immediately on all your devices. Our Mac and iOS apps will help you
+        organize everything.
+      </p>
+      <div class="flex flex-col items-center gap-10 lg:items-start lg:flex-row lg:gap-20">
+        <div class="flex-1">
+          <img src="./assets/image-computer.png" alt="" />
+        </div>
+        <div class="flex flex-col mt-8 max-w-[350px]">
+          <div class="mb-14">
+            <h3 class="text-dark-gray-blue text-xl sm:text-2xl mb-2">Quick Search</h3>
+            <p class="text-[14px] sm:text-base text-grey-blue leading-7">
+              Easily search your snippets by content, category, web address, application,
+              and more.
+            </p>
+          </div>
+          <div class="mb-14">
+            <h3 class="text-dark-gray-blue text-xl sm:text-2xl mb-2">iCloud Sync</h3>
+            <p class="text-[14px] sm:text-base text-grey-blue leading-7">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-dark-gray-blue text-xl sm:text-2xl mb-2">Complete History</h3>
+            <p class="text-[14px] sm:text-base text-grey-blue leading-7">
+              Retrieve any snippets from the first moment you started using the app.
+            </p>
+          </div>
         </div>
       </div>
     </div>
