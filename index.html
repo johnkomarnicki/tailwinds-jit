@@ -17,23 +17,25 @@
     <!-- Hero -->
     <div class="bg-hero-desktop bg-cover w-full">
       <div
-        class="container flex flex-col items-center py-[80px] md:py-[128px] text-center"
+        class="container flex flex-col items-center py-[80px] md:py-[128px]
+        text-center"
       >
         <img class="w-[125px] mb-14" src="./assets/logo.svg" alt="clipboard logo" />
         <h1 class="text-4xl md:text-5xl mb-3 text-dark-gray-blue">
           A history of everything you copy
         </h1>
         <p
-          class="max-w-[500px] md:max-w-[700px] text-[14px] md:text-[18px] text-grey-blue mb-16"
+          class="max-w-[500px] md:max-w-[700px] text-[14px] md:text-[18px]
+          text-grey-blue mb-16"
         >
           Clipboard allows you to track and organize everything you copy. Instantly access
           your clipboard on all your devices.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <button class="btn btn-cyan">
+          <button class="py-3 px-7 rounded-full shadow-md text-white bg-strong-cyan">
             Download for iOS
           </button>
-          <button class="btn btn-light-blue">
+          <button class="py-3 px-7 rounded-full shadow-md text-white bg-light-blue">
             Download for Mac
           </button>
         </div>
@@ -53,7 +55,10 @@
         your snippets immediately on all your devices. Our Mac and iOS apps will help you
         organize everything.
       </p>
-      <div class="flex flex-col items-center gap-10 lg:items-start lg:flex-row lg:gap-20">
+      <div
+        class="flex flex-col items-center gap-10 lg:items-start lg:flex-row
+      lg:gap-20"
+      >
         <div class="flex-1">
           <img src="./assets/image-computer.png" alt="" />
         </div>
@@ -140,7 +145,8 @@
 
     <!-- Clients -->
     <div
-      class="py-[80px] md:py-[128px] flex gap-20 flex-col sm:flex-row flex-wrap items-center justify-center  container"
+      class="py-[80px] md:py-[128px] flex gap-20 flex-col sm:flex-row
+      flex-wrap items-center justify-center  container"
     >
       <img src="./assets/logo-google.png" alt="" />
       <img src="./assets/logo-ibm.png" alt="" />
@@ -150,7 +156,7 @@
     </div>
 
     <!-- Download  -->
-    <div class="container flex flex-col items-center py-[80px] md:py-[128px] text-center">
+    <div class="py-[80px] md:py-[128px] container flex flex-col items-center text-center">
       <h2 class="text-center text-3xl md:text-4xl mb-3 text-dark-gray-blue">
         Clipboard for iOS and Mac OS
       </h2>
@@ -170,5 +176,38 @@
         </button>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-10 px-12">
+      <div
+        class="container flex flex-col md:flex-row items-center
+      gap-x-24 gap-y-12"
+      >
+        <div>
+          <img class="w-[55px]" src="./assets/logo.svg" alt="" />
+        </div>
+        <ul
+          class="flex flex-1 flex-wrap gap-x-12 gap-y-4 justify-center
+          md:justify-start text-dark-gray-blue"
+        >
+          <li class="cursor-pointer">FAQ's</li>
+          <li class="cursor-pointer">Privacy Policy</li>
+          <li class="cursor-pointer">Install Guide</li>
+          <li class="cursor-pointer">Contact Us</li>
+          <li class="cursor-pointer">Press Kit</li>
+        </ul>
+        <ul class="flex flex-wrap justify-end items-center gap-x-4">
+          <li class="cursor-pointer">
+            <img src="./assets/icon-facebook.svg" alt="" />
+          </li>
+          <li class="cursor-pointer">
+            <img src="./assets/icon-twitter.svg" alt="" />
+          </li>
+          <li class="cursor-pointer">
+            <img src="./assets/icon-instagram.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
